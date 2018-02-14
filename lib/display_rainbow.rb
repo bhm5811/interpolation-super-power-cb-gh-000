@@ -6,6 +6,7 @@ def display_rainbow(colors)
       first_letter = color.chr
       str =  "#{first_letter.upcase}: #{color}"
       string_array[i] = str
+      i += 1
     end
 end
 
