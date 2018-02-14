@@ -1,5 +1,6 @@
 
 def display_rainbow(colors)
+  letters = ['R', 'O', 'Y', 'G', 'B', 'I', 'V']
   i = 0
   string_array = Array.new
     for color in colors
