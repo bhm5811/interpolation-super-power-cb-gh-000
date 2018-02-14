@@ -8,7 +8,7 @@ def display_rainbow(colors)
       string_array[i] = str
       i += 1
     end
-    puts string_array.join(",")
+    puts string_array.join(", ")
 end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
