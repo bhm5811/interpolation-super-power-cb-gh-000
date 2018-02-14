@@ -1,5 +1,7 @@
 
 def display_rainbow(colors)
+  i = 0
+  string_array = Array.new
     for color in colors
       first_letter = color.chr
       print "#{first_letter.upcase}: #{color}, "
