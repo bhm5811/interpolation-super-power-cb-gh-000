@@ -4,7 +4,7 @@ def display_rainbow(colors)
     loop do
       i += 1
       first_letter = colors[i][0]
-      puts "#{first_letter.upcase}: #{colors[i]}, "
+      print "#{first_letter.upcase}: #{colors[i]}, "
     end
 end
 
