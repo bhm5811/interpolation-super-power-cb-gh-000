@@ -1,12 +1,11 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  print "#{letters[0]}: #{colors[0]}, "
-  print "#{letters[1]}: #{colors[1]}, "
-  print "#{letters[2]}: #{colors[2]}, "
-  print "#{letters[3]}: #{colors[3]}, "
-  print "#{letters[4]}: #{colors[4]}, "
-  print "#{letters[5]}: #{colors[5]}, "
-  print "#{letters[6]}: #{colors[6]}"
+    i = 0
+    loop do
+      i += 1
+      first_letter = colors[i].initial
+      puts "#{first_letter.upcase}: #{colors[i]}, "
+    end
 end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
