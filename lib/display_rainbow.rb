@@ -1,9 +1,9 @@
-# Write your #display_rainbow method here
+
 def display_rainbow(colors)
     i = 0
     loop do
       i += 1
-      first_letter = colors[i].initial
+      first_letter = colors[i][0]
       puts "#{first_letter.upcase}: #{colors[i]}, "
     end
 end
